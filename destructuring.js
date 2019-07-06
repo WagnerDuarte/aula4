@@ -1,8 +1,9 @@
 const cat = {
-    name: "Alfred",
+    name: "Alfred Marcus",
     breed: "Persian"
 };
 
+<<<<<<< HEAD
 const cities = {
     paris: {
         country: "France",
@@ -24,3 +25,9 @@ const {
 } = cities;
 //country = Brazil
 //paris = {country: 'France', language: 'French'}
+=======
+const { name: fullname, breed, age: yearsOld = 3 } = cat;
+//fullname = Alfred
+//breed = Persian
+//yearsOld = 3
+>>>>>>> conflito
