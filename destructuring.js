@@ -1,9 +1,9 @@
 const cat = {
-    name: "Alfred",
+    name: "Alfred Marcus",
     breed: "Persian"
 };
 
-const { name, breed, age = 3 } = cat;
-//name = Alfred
+const { name: fullname, breed, age: yearsOld = 3 } = cat;
+//fullname = Alfred
 //breed = Persian
-//age = 3
+//yearsOld = 3
